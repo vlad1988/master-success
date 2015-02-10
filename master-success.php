@@ -14,6 +14,7 @@ function html_form_code() {
     $form.="<form action='" . esc_url($_SERVER['REQUEST_URI']) . "' method='post'>";
     $form.="<input type='text'  placeholder='Ваше Имя'/>";
     $form.="<input type='email'  placeholder='Ваш E-mail'/>";
+    $form.="<input type='submit' id='add-share-btn' value='Получить доступ'/>";
     $form.="</form>";
     echo $form;
 }
